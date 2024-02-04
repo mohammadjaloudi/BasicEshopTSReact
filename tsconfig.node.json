@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true, // Enable strict mode
+    "noUnusedLocals": true, // Report unused variables
+    "noUnusedParameters": true, // Report unused parameters
+    "noImplicitReturns": true, // Report missing return statements
+    "noFallthroughCasesInSwitch": true, // Report fallthrough cases in switch statements
+    "forceConsistentCasingInFileNames": true, // Enforce consistent filename casing
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enable strict checking of function types
+    "strictBindCallApply": true, // Enable strict bind/call/apply methods
+    "strictPropertyInitialization": true, // Enable strict checking of property initialization
+    "noImplicitThis": true, // Raise error on 'this' expressions with an implied 'any' type
+    "alwaysStrict": true // Parse in strict mode and emit 'use strict' for each source file
+  },
+  "include": ["vite.config.ts"]
+}
